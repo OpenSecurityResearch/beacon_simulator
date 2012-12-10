@@ -1,0 +1,1 @@
+while true; do wget -O /dev/null http://www.dot.tk/en/index.html?lang=en; sleep 10; done;

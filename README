@@ -1,0 +1,25 @@
+Beacon Simulators
+Tony.Lee-at-Foundstone.com
+-----------------------------------
+
+Simple tools and scripts to test if your network is 
+susceptible to outbound beaconing. 
+
+For more info see http://blog.opensecurityresearch.com
+
+
+beacon_onliner - Single line command meant to use
+	on the command line
+
+beacon.sh - Bash script to simulate a beacon to 
+	a defined web site
+
+beacon.cpp - C++ program to simulate a beacon to
+	a defined web site
+
+	Static Compilation:
+		g++ -static -o beacon beacon.cpp
+
+	Dynamic Compilation:
+		g++ -o beacon beacon.cpp
+
